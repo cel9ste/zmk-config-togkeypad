@@ -58,6 +58,12 @@
             bindings = <&studio_unlock>;
         };
 
+        combo_bootloader {
+            timeout-ms = <50>;
+            key-positions = <0 1 2 3 4>;
+            bindings = <&bootloader>;
+        };
+
         combo_pairing {
             timeout-ms = <50>;
             key-positions = <2 3 4>;
